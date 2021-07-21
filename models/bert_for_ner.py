@@ -4,7 +4,7 @@
 Author: yangyuxiang
 Date: 2021-07-07 17:19:02
 LastEditors: yangyuxiang
-LastEditTime: 2021-07-14 15:39:00
+LastEditTime: 2021-07-21 21:05:34
 FilePath: /Chinese-Product-Search/models/bert_for_ner.py
 Description:
 '''
@@ -14,7 +14,7 @@ import torch.nn.functional as F
 # from torchcrf import CRF
 from .layers.crf import CRF
 from .transformers.modeling_bert import BertPreTrainedModel
-from transformers import BertModel
+from .transformers import BertModel
 from .layers.linears import PoolerEndLogits, PoolerStartLogits
 from torch.nn import CrossEntropyLoss
 from losses.focal_loss import FocalLoss
