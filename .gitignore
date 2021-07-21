@@ -1,1 +1,4 @@
 .vscode/
+prev_trained_model/*
+cached*
+kb*
