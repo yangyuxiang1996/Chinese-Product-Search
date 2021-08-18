@@ -1,4 +1,6 @@
 .vscode/
-prev_trained_model/*
+*/prev_trained_model/*
 cached*
 kb*
+*/outputs/
+*/datasets/
